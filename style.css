@@ -1,0 +1,65 @@
+.zipcode_address_search{
+  display: flex;
+}
+
+.address_search_button{
+display: inline-block
+}
+
+.address,.name,.zipcode{
+  width: 200px;
+  height: 30px;
+}
+
+.address_button{
+display: flex;
+margin: 0 0 0 20px ;
+
+
+}
+.cp_iptxt {
+	position: relative;
+	width: 80%;
+	margin: 15px 3%;
+}
+.cp_iptxt input[type=text] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 8px 0;
+	padding: 0.3em;
+	transition: 0.3s;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+	outline: none;
+}
+.cp_iptxt input[type=text]:focus {
+	border-color: #da3c41;
+}
+.cp_iptxt input[type=text] {
+	padding-left: 40px;
+}
+.cp_iptxt i {
+	position: absolute;
+	top: 8px;
+	left: 0;
+	padding: 9px 8px;
+	transition: 0.3s;
+	color: #aaaaaa;
+}
+.cp_iptxt input[type=text]:focus + i {
+	color: #da3c41;
+}
+
+.birthday,.sex,.adl_level,.mail{
+display: flex;
+font-size: large;
+width: 80%;
+margin: 15px 3%;
+}
+
+.birthday_box{
+width: 60px;
+height: 30px;
+
+}

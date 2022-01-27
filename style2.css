@@ -1,0 +1,17 @@
+.name{
+    color: #364e96;/*文字色*/
+    padding: 0.5em 0;/*上下の余白*/
+    border-top: solid 3px #364e96;/*上線*/
+    border-bottom: solid 3px #364e96;/*下線*/
+}
+
+.zipcode,.address,.birthday,.sex,.number,.mail{
+    padding: 0.5em;
+    margin-bottom: 3px;
+    line-height: 1.5;
+    border-left: solid 6px #1A237E;
+    background: #80DEEA;
+    color:#1A237E;
+    opacity:0.8;
+
+}
